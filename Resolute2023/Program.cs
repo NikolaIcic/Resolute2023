@@ -1,4 +1,4 @@
-﻿int[] niz = new int[] { 1, 4, 15, 9, 12, 5, 2 };
+﻿int[] niz = new int[] { 1, 4, 15, 9, 12, 5, 2,8, 15, 20 };
 
 void Fun1(int[] n)
 {
@@ -6,7 +6,6 @@ void Fun1(int[] n)
         Console.WriteLine(i);
 }
 
-//Fun1(niz);
 
 int Fun2(int[] n)
 {
@@ -30,7 +29,6 @@ int Fun21(int[] n)
     return min;
 }
 
-//int res = Fun2(niz);
 
 int[] Fun3(int[] n, int x)
 {
@@ -41,13 +39,7 @@ int[] Fun3(int[] n, int x)
     return n;
 }
 
-//int[] res = Fun3(niz,2);
 
-//Fun1(res);
-
-// if(el % 2 == 0)
-// prani => el = el + a
-// neparni => el = el + b
 
 int[] Fun32(int[] n, int a, int b)
 {
@@ -64,5 +56,10 @@ int[] Fun32(int[] n, int a, int b)
 int[] res = Fun32(niz,2,0);
 
 Fun1(res);
+
+void Funkcija()
+{
+
+}
 
 Console.ReadKey();
