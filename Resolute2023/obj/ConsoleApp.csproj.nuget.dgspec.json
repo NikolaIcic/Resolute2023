@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Training\\ResoluteTraining\\Projects\\Temp\\Resolute2023\\ConsoleApp.csproj": {}
+    "C:\\Users\\Win10\\source\\repos\\Resolute2023\\Resolute2023\\ConsoleApp.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Training\\ResoluteTraining\\Projects\\Temp\\Resolute2023\\ConsoleApp.csproj": {
+    "C:\\Users\\Win10\\source\\repos\\Resolute2023\\Resolute2023\\ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Training\\ResoluteTraining\\Projects\\Temp\\Resolute2023\\ConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\Win10\\source\\repos\\Resolute2023\\Resolute2023\\ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "D:\\Projects\\Training\\ResoluteTraining\\Projects\\Temp\\Resolute2023\\ConsoleApp.csproj",
-        "packagesPath": "C:\\Users\\Resolute Office 2\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Training\\ResoluteTraining\\Projects\\Temp\\Resolute2023\\obj\\",
+        "projectPath": "C:\\Users\\Win10\\source\\repos\\Resolute2023\\Resolute2023\\ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\Win10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Win10\\source\\repos\\Resolute2023\\Resolute2023\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Resolute Office 2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
