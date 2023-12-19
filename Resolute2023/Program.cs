@@ -1,5 +1,7 @@
 ﻿int[] niz = new int[] { 1, 4, 15, 9, 12, 5, 2,8, 15, 20 };
 
+//Ovde dodajem svoj komentar.
+
 void Fun1(int[] n)
 {
     foreach (int i in n)
