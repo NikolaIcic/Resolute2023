@@ -8,6 +8,9 @@ void Fun1(int[] n)
 
 //Fun1(niz);
 
+
+// komentar
+
 int Fun2(int[] n)
 {
     int max = 0;
