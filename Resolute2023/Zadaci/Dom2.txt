@@ -10,7 +10,8 @@ Ukoliko su novi elementi manji od 0, postaju 0.
 
 4. Napisati funkciju Dom4 koja za dati niz celih brojeva, vraca niz kod koga su zamenjeni prvi i poslednji elemenat niza.
 
-5. Napisati funkciju Dom5 koja za dati niz stringova, vraca niz ciji su elementi u kontra smeru.
+5. Napisati funkciju Dom5 koja za dati niz stringova, 
+vraca niz ciji su elementi u kontra smeru.
 
 6*. Napisati funkciju Dom6 koja za dati niz stringova, vraca true ili false,
 u zavisnosti od toga da li se neki element niza javlja 2 ili vise puta

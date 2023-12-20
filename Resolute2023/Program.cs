@@ -42,4 +42,20 @@ int[] res = Fun32(niz,2,0);
 
 Fun1(res);
 
+string[] str = new string[] { "Nikola", "icic", "123", "icic" };
+
+bool Dom6(string[] niz)
+{
+    for(int i=0;i<niz.Length;i++)
+    {
+        for(int j=i+1;j<niz.Length;j++)
+        {
+            if (niz[j] == niz[i])
+                return true;
+        }
+    }
+    return false;
+}
+
 Console.ReadKey();
+
