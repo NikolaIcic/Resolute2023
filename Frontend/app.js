@@ -1,21 +1,45 @@
-let MyFunction = () => {
-    let username = document.getElementById("input1");
-    console.log(username.value);
-
-    let password = document.getElementById("input2");
-    console.log(password.value);
-
-    let niz = ['Nikola','Ognjen','Nata','Bojan','Anta'];
-
-    let article = document.getElementById("article");
-
-    let ul = document.createElement("ul");
-
-    for(let i=0;i<niz.length;i++){
-        let li = document.createElement("li");
-        li.innerHTML = niz[i];
-        ul.appendChild(li);
-    }
-
-    article.appendChild(ul);
+let ApiRequestGet = async (url) => {
+    const promise = await fetch(url, {
+        method: 'GET',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer '
+        }
+    });
+    if (promise.status != 200)
+        alert(promise.status);
+    return await promise.json();
 }
+
+let ApiRequestPost = async (url, data) => {
+    const promise = await fetch(url, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer '
+        },
+        body: JSON.stringify(data)
+    });
+    if (promise.status != 200)
+        alert(promise.status);
+}
+
+let LoadAllUsers = async() => {
+
+
+     let url = "";
+     //const users = await ApiRequestGet(url);
+}
+
+let AddUser = async() => {
+
+
+    let url = "";
+    let userJSON = {
+        ime: " ? ",
+    };
+    //ApiRequestPost(url,userJSON);
+}
+
+LoadAllUsers();
+

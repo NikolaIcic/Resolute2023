@@ -1,0 +1,33 @@
+Napraviti Users stranicu kao sa slike:
+1. Navigacija ista kao na Home stranici. Iskoristiti isti CSS file.
+2. Napraviti novi CSS file users.css i povezati sa users.html
+3. Ispod navigacije napraviti jedan <main> element.
+4. U njemu napraviti 2 <div> elementa sa sledecim svojstvima:
+	- width: 40%; 
+	- padding-left: 10%; 
+	- height: 500px;
+	- position: absolute;
+	- top: 120px;
+	Levi div:
+		- background-color:aliceblue;
+	Desni div:
+		- background-color: neka varijanta svetlo zute boje
+		- left: 50%;
+5.U levi div napraviti:
+	- <h1> Dodaj korisnika
+	- <h4> za Ime,Prezime,Godine i Radni Staz
+	- <input> Tekstualna polja za unos podataka
+	- <button> Dodaj
+6. Klikom na dugme, pravi se JSON sa podacima o korisniku
+i zahtev se salje na backend.
+
+7. Desni div je lista korisnika:
+	- Sadrzi prazan <article> elemenat
+	- Lista korisnika se ucitava od backend-a kada se refresuje stranica.
+	- Kako ucitati korisnike:
+		- Napraviti poziv na backend
+		- kroz for petlju proci kroz svakog korisnika
+		- za svaki prolaz napraviti h4 sa Ime + Prezime i apendovati na article
+		- isto uraditi za GodineDoPenzije
+
+8. Na dnu se nalazi footer

@@ -1,0 +1,20 @@
+U Postojecem Backend WebAPI projektu napraviti novu klasu User:
+	- Properties:
+		- Ime (string)
+		- Prezime (string)
+		- Godine (int)
+		- RadniStaz (int)
+		- DoPenzije (int)
+	- Prazan konstruktor
+	- Metode:
+		- Izracunaj():
+		Korisnik ide u penziju ako ima 40 godina ili vise radni staz, ili 65 godina starosti ili vise,
+		tada su godine do penzije 0.
+		U suprotnom godine do penzije se racunaju kao 40 - RadniStaz
+
+Napraviti novi kontroler UserController:
+	- napraviti listu korisnika kao -> public static List<User> users = new List<User>();
+	- napraviti jedan Get endpoint koji vraca sve usere iz liste.
+	- napraviti jedan Post endpoint koji:
+		- Za prosledjen User objekat poziva funkciju Izracunaj,
+		 a zatim dodaje novog user-a u listu.
