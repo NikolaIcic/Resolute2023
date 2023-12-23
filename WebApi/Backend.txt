@@ -7,7 +7,7 @@ U Postojecem Backend WebAPI projektu napraviti novu klasu User:
 		- DoPenzije (int)
 	- Prazan konstruktor
 	- Metode:
-		- Izracunaj():
+		-public void Izracunaj():
 		Korisnik ide u penziju ako ima 40 godina ili vise radni staz, ili 65 godina starosti ili vise,
 		tada su godine do penzije 0.
 		U suprotnom godine do penzije se racunaju kao 40 - RadniStaz

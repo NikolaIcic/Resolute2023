@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="users.css" rel="stylesheet">
     <title>Users</title>
 </head>
 <body>
-    <h1>Users page</h1>
+    <nav>
+        <h2>Resolute 2023</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="users.html">Users</a></li>
+            <li><a href="https://gigatron.rs/kontakt">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="divLeft">
+            <h1>Dodaj korisnika</h1>
+            <h4>Ime</h4>
+            <input id="txt1" />
+            <h4>Prezime</h4>
+            <input id="txt2" />
+            <h4>Godine</h4>
+            <input id="txt3" />
+            <h4>Radni staz</h4>
+            <input id="txt4" />
+            <p>
+                <button onclick="AddUser()">Dodaj</button>
+            </p>
+        </div>
+        <div class="divRight">
+            <article id="article">
+
+            </article>
+        </div>
+        <footer>Resolute 2023</footer>
+    </main>
+    <script src="app.js"></script>
 </body>
 </html>

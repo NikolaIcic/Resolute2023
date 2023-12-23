@@ -1,0 +1,20 @@
+.divLeft {
+    width: 40%;
+    padding-left: 10%;
+    height: 500px;
+    position: absolute;
+    top: 120px;
+    background-color: aliceblue;
+    color:blue;
+}
+
+.divRight {
+    width: 40%;
+    padding-left: 10%;
+    height: 500px;
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    color:black;
+    background-color: lightgoldenrodyellow;
+}
